@@ -21,16 +21,18 @@ The primary file used for tracking changes throughout the assignment process is:
 *(Note: You will replace these placeholders with your actual answers before submitting the assignment.)*
 
 1.  **Challenges Faced:**
-    [Insert your 5-7 line answer here, reflecting on the Git identity and file path challenges.]
+    [The initial challenge was setting up Git Identity and ensuring Git could find the program. Once installed, the most common issue was correctly specifying the file path        (html/index.html) when using git add, since the file was in a subdirectory and not the root.]
 
 2.  **GitHub's Improvement to Teamwork:**
-    [Insert your 5-7 line answer here, focusing on Pull Requests and centralization.]
+    [GitHub acts as a central hub, enabling asynchronous collaboration. It improves teamwork primarily through Pull Requests (PRs), which provide a dedicated space for team        members to review, discuss, and formally approve code changes before they affect the main project. This structured review process prevents errors and maintains code quality.]
 
 3.  **Preventing Issues with Version Control:**
-    [Insert your 5-7 line answer here, using the "roll back a bad deployment" scenario.]
+    [Version control prevents disaster when a new code deployment introduces a critical bug that crashes the live application. With Git, a developer can instantly perform a        git revert <bad_commit_hash> or a git reset to roll the entire codebase back to the last stable version, minimizing downtime and quickly resolving the catastrophic issue.]
 
 4.  **Most Useful Git Commands:**
-    [Insert your 5-7 line answer here, focusing on commands like `git status` and `git log` or `git pull/push`.]
+    [git commit: This is the fundamental command because it creates the historical snapshot of the project. Every major change is permanently recorded and given a unique ID,       allowing for easy tracking and reversion.
+
+    git push: This command is the bridge for teamwork. It's the action that sends all local, committed changes to the central GitHub repository, making the code accessible and     available for review by collaborators.]
 
 5.  **Significance of Effective Commit Messages:**
-    [Insert your 5-7 line answer here, discussing clear history and debugging/reverting.]
+    [Effective commit messages serve as a readable timeline of the project's history. They quickly explain the what and why of a change. Clear messages (like CONTRIB: Added        required collaborative line.) are vital for debugging, as they allow developers to rapidly find the source of an error without having to read through thousands of lines        of code.]
